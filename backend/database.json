@@ -1,0 +1,75 @@
+{
+  "navbar": {
+    "item": {
+      "id": "1",
+      "title": "Interiorskairu",
+      "links": [
+        {
+          "name": "Home",
+          "url": "#"
+        }
+      ]
+    },
+    "navbar": {
+      "id": "1",
+      "title": "Interiorskairu",
+      "links": [
+        {
+          "name": "Home",
+          "url": "#"
+        }
+      ]
+    }
+  },
+  "images": [
+    {
+      "id": "2",
+      "title": "Turf grass",
+      "src": "https://www.shutterstock.com/image-photo/terrace-cushion-made-fabric-furniture-600nw-1660100050.jpg",
+      "alt": "Image 1"
+    },
+    {
+      "title": "Wall panel design",
+      "src": "https://floornigeria.com/wp-content/uploads/2023/07/Artificial-Plants-Wall-Boxwood-Hedge-Grass-Mat-Artificial-Grass-Wall-Panels-Artificial-Grass-Tiles-For-Wall-Decor-Garden-Decor-Ceiling-Decor-1.webp",
+      "alt": "Image 2",
+      "id": "ba93"
+    },
+    {
+      "title": "Living room design",
+      "src": "https://foyr.com/learn/wp-content/uploads/2023/04/Art-Deco-Interior-Design-Style.webp",
+      "alt": "Image 3",
+      "id": "23d1"
+    },
+    {
+      "id": "9916"
+    },
+    {
+      "id": "e069"
+    }
+  ],
+  "timeline": {
+    "id": "3",
+    "events": [
+      {
+        "description": "Example Event 1",
+        "date": "2023-09-15",
+        "time": "10:30"
+      },
+      {
+        "description": "Example Event 2",
+        "date": "2023-10-01",
+        "time": "12:00"
+      }
+    ]
+  },
+  "budgetForm": {
+    "id": "4",
+    "area": 25,
+    "message": "A budget of Ksh 25,000 - Ksh 35,000 is good for an area of 16 to 25 square meters."
+  },
+  "userAuthentication": {
+    "id": "5",
+    "isLoggedIn": false,
+    "welcomeMessage": "Welcome, home!"
+  }
+}

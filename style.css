@@ -1,0 +1,335 @@
+/* General styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eec5c5b2;
+  padding: 20px;
+}
+
+/* Style the main header */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Style for the Navbar */
+.navbar {
+  background-color: #e3f2fd;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #000 !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/* Time bar styling */
+.time-bar {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+btn {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.logout-section {
+  display: none;
+}
+
+.login-section {
+  display: none;
+}
+
+
+
+/* Style for the project columns */
+.column-1 {
+  margin-bottom: 30px;
+}
+
+/* Style for images */
+.image-container img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+/* Image buttons */
+.edit-btn, .delete-btn, .add-btn {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.edit-btn {
+  background-color: #792aa7;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.add-btn {
+  background-color: #28a745;
+}
+
+/* Budget Estimator section */
+#budgetForm {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+#budgetForm label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#budgetForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#budgetForm button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#budgetForm button:hover {
+  background-color: #0056b3;
+}
+
+/* Budget success message */
+#successMessage {
+  background-color: #c21a81;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Timeline Section */
+#timeline {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#timeline h2 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+#timelineList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#timelineList li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 5px solid #007bff;
+  border-radius: 5px;
+}
+
+/* Timeline form styles */
+#timelineForm input, #timelineForm button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#timelineForm input {
+  border: 1px solid #ddd;
+}
+
+#timelineForm button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#timelineForm button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+      text-align: center;
+  }
+
+  .column-1 img {
+      width: 100%;
+  }
+
+  .edit-btn, .delete-btn, .add-btn {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  #timelineForm input, #timelineForm button {
+      width: 100%;
+  }
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.form-control {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 600px) {
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .form-control {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+/* Style for the image gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.image-container {
+  position: relative;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.edit-btn, .delete-btn {
+  margin-top: 5px;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+}
+
+.edit-btn {
+  background-color: #792aa7;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.add-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+/*view image btn*/
+img {
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  padding: 10px;
+  display: none; /* Initially hidden */
+}
+
+.view-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  background-color: #45a049;
+}
