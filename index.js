@@ -1,3 +1,6 @@
+fetch('https://main-project-1-9do9.onrender.com/images')
+  .then((response) => response.json())
+  .then((json) => console.log(json));
 // Time update function
 function updateTime() {
   const now = new Date();
