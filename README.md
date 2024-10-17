@@ -42,17 +42,18 @@ To get started with the project locally, follow these steps:
 1. **Clone the repository:**
     
     git clone https://github.com/kairukamau77/interiorskairu.git
+   render :https://main-project-1-9do9.onrender.com
     
 
-2. **Navigate to the project directory:**
+3. **Navigate to the project directory:**
     
     cd interiorskairu
     
 
-3. **Open the project in a browser:**
+4. **Open the project in a browser:**
     You can open the `index.html` file directly in any web browser. Simply right-click on the `index.html` file and select **Open With** -> Your Browser.
 
-4. **Run a local server (optional but recommended for full JavaScript functionality):**
+5. **Run a local server (optional but recommended for full JavaScript functionality):**
    - You can use a local development server like `Live Server` for Visual Studio Code or use Python’s simple HTTP server.
    
     
