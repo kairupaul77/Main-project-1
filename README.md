@@ -42,7 +42,8 @@ To get started with the project locally, follow these steps:
 1. **Clone the repository:**
     
     git clone https://github.com/kairukamau77/interiorskairu.git
-   render :https://main-project-1-9do9.onrender.com
+   render : https://main-project-1-9do9.onrender.com
+   github :  https://kairupaul77.github.io/Main-project-1/
     
 
 3. **Navigate to the project directory:**
