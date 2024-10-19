@@ -56,6 +56,7 @@ To get started with the project locally, follow these steps:
 
 5. **Run a local server (optional but recommended for full JavaScript functionality):**
    - You can use a local development server like `Live Server` for Visual Studio Code or use Python’s simple HTTP server.
+6. **My Slides DEMO Link** https://www.loom.com/share/74b330bffbd64719bb6c105242537583?sid=a68bf628-c463-4cdd-b39d-09b3b54806b6
    
     
 
